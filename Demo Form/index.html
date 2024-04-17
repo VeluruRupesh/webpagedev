@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+</head>
+<body>
+    <h1>Demo Form</h1>
+    <from action="main.py">
+        <div>
+            <fieldset>
+                <legend>My Form</legend>
+            <label
+                for="username">Username:</label>
+                <input type="text"name="uname"id="uname"><br><br>
+                <label for="em">Email:</label>
+                <input type="email" name="email"id="email"><br><br>
+                <label for="pd">Password:</label>
+         <input type="password"name="Passwod:"id="name="Password:" placeholder="Enter Password"><br><br>
+         <label for="age">Age:</label>
+         <input type="number" name ="Age:" id="Age:"placeholder="Enter age" ><br><br>
+    
+        </div><br><br>
+          <div>
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date"name="DOB" id="DOB"><br><br>
+            <label for="Dateandtime">Enter booking date</label>
+            <input type="datetime-local"name=""id=""><br><br>
+            <label for="link">Enter Url:</label>
+            <input type="url" placeholder="enter url" name="link" id="link"><br><br>
+            <label for="file">Select File:</label>
+            <input type="file" name="file" id="file"><br><br>
+            <input type="color" name="red" id="red"><br><br>
+            <label for="Week">Select Week:</label>
+            <input type="week" name="Week" id="Week"><br><br>
+            <label for="Optional">Additional Notes:</label>
+            <textarea name="text" id="name" cols="10" rows="5"></textarea><br><br>
+            <p>Languages Known:</p>
+            <label for="Java">Java</label>
+            <input type="checkbox" name="Java" id="Java">
+            <label for="Python">Python</label>
+            <input type="checkbox" name="Python" id="Python">
+            <label for="PL/SQL">PL/SQL</label>
+            <input type="checkbox" name="plsql" id="plsql"><br><br>
+            <p>Gender:</p>
+            <label for="ma">Male</label>
+            <input type="radio" name="ma"id="ma">
+            <label for="fe">Female</label>
+            <input type="radio" name="ma" id="ma"><br><br>
+            <select name="courses" id="course">
+                <optgroup label="IT">
+            <option value="1">Java</option>
+            <option value="2">Python</option>
+            <option value="3">PL/SQL</option>
+            <option value="4">C</option>
+            <option value="5">C++</option>
+           </optgroup>
+           <optgroup label="Electronics">
+            <option value="6">DSP</option>
+            <option value="7">C&DS</option>
+           </optgroup>
+           <optgroup label="Electronics & Instrumentation">
+            <option value="8">S&S</option>
+            <option value="9">Instrumentation</option>
+        </optgroup>
+            </select><br><br>
+
+
+
+            <button type="submit">Submit</button>
+            
+            
+            
+
+
+           
+         </div>
+    </from>
+    
+</body>
+</html>
